@@ -1,3 +1,33 @@
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&kp LG(Z)>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LG(V)>;
+};
+macro_cut: macro_cut{
+compatible = "zmk,behavior-macro";
+label = "macro_cut";
+#binding-cells = <0>;
+bindings = <&kp LG(X)>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LG(C)>;
+};
+macro_notifications: macro_notifications{
+compatible = "zmk,behavior-macro";
+label = "macro_notifications";
+#binding-cells = <0>;
+bindings = <&kp LC(SINGLE_QUOTE)>;
+};
 macro_mission: macro_mission{
 compatible = "zmk,behavior-macro";
 label = "macro_mission";
