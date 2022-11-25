@@ -2,7 +2,7 @@ macro_mission: macro_mission{
 compatible = "zmk,behavior-macro";
 label = "macro_mission";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp UP_ARROW>;
+bindings = <&kp LEFT_CONTROL(UP_ARROW)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
